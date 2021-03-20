@@ -1,0 +1,21 @@
+.Links {
+    display: flex;
+    flex-direction: row;
+    padding-right: 70px;
+    font-size: 13px;
+}
+
+.Link {
+    margin: 2%;
+    text-decoration: none;
+    color: black;
+}
+
+.Link:hover {
+    color: #3e69dc;
+}
+@media (max-width: 450px) {
+    .Link {
+        margin: 0.9%;
+    }
+}
